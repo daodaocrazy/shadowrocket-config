@@ -151,6 +151,15 @@ DOMAIN-SUFFIX,zhihu-ads.zhihu.com,REJECT
 # DOMAIN-SUFFIX,edith.xiaohongshu.com,REJECT
 DOMAIN-SUFFIX,ads.xiaohongshu.com,REJECT
 
+########################################
+# Hupu Ads
+########################################
+
+DOMAIN,goblin.hupu.com,REJECT
+DOMAIN,e-goblin.hupu.com,REJECT
+DOMAIN-keyword,pangolin-sdk,REJECT
+DOMAIN-keyword,volceapplog,REJECT
+
 
 ########################################
 # Taoyuangu Ad Source
