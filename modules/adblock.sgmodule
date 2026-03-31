@@ -147,6 +147,14 @@ DOMAIN,tva1.sinaimg.cn,REJECT
 DOMAIN,tvax1.sinaimg.cn,REJECT
 DOMAIN,tvax2.sinaimg.cn,REJECT
 
+# 微博广告增强拦截
+DOMAIN,adimg.wb.rd.com,REJECT
+DOMAIN,adimg.uve.weibo.com,REJECT
+DOMAIN,adstrategy.biz.weibo.com,REJECT
+DOMAIN,sdkapp.uve.weibo.com,REJECT
+DOMAIN-KEYWORD,ad.sina,REJECT
+
+
 ########################################
 # Zhihu Ads
 ########################################
