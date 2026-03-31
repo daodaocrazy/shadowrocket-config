@@ -134,6 +134,18 @@ DOMAIN-SUFFIX,biz.weibo.com,REJECT
 DOMAIN,sdkaction.weibo.com,REJECT
 DOMAIN,click.weibo.com,REJECT
 
+DOMAIN,sdk.weibo.cn,REJECT
+DOMAIN,adimg.wbimg.cn,REJECT
+DOMAIN,adstrategy.biz.weibo.com,REJECT
+DOMAIN,ads.weibo.com,REJECT
+DOMAIN,adimg.weibo.com,REJECT
+DOMAIN,beacon.sina.com.cn,REJECT
+DOMAIN,dp.im.weibo.cn,REJECT
+DOMAIN,vip.storage.weibo.com,REJECT
+DOMAIN,gateway.im.weibo.cn,REJECT
+DOMAIN,tva1.sinaimg.cn,REJECT
+DOMAIN,tvax1.sinaimg.cn,REJECT
+DOMAIN,tvax2.sinaimg.cn,REJECT
 
 ########################################
 # Zhihu Ads
@@ -185,3 +197,4 @@ URL-REGEX,^https://.*/ads,REJECT
 
 [MITM]
 hostname = %APPEND% pangolin-sdk-toutiao.com, gdt.qq.com, sigmob.cn, uve.weibo.com
+hostname = %APPEND% api.weibo.cn, sdk.weibo.cn, *.sinaimg.cn
