@@ -143,9 +143,9 @@ DOMAIN,beacon.sina.com.cn,REJECT
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,vip.storage.weibo.com,REJECT
 DOMAIN,gateway.im.weibo.cn,REJECT
-DOMAIN,tva1.sinaimg.cn,REJECT
-DOMAIN,tvax1.sinaimg.cn,REJECT
-DOMAIN,tvax2.sinaimg.cn,REJECT
+#DOMAIN,tva1.sinaimg.cn,REJECT
+#DOMAIN,tvax1.sinaimg.cn,REJECT
+#DOMAIN,tvax2.sinaimg.cn,REJECT
 
 # 微博广告增强拦截
 DOMAIN,adimg.wb.rd.com,REJECT
